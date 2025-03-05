@@ -22,5 +22,11 @@ To get started developing Python applications with Canvas, download the appropri
 - [Sera NX040 Click](GA2/2.0.0/sera_nx040_click)
 - [Sera NX040 DVK](GA2/2.0.0/sera_nx040_dvk)
 - [Sera NX040 Tag](GA2/2.0.0/sera_nx040_tag)
+- [Lyra24 P10](GA2/2.0.0/lyra24_p10)
+- [Lyra24 P20](GA2/2.0.0/lyra24_p20)
+- [Lyra24 PRF](GA2/2.0.0/lyra24_prf)
+- [Lyra24 S10](GA2/2.0.0/lyra24_s10)
+- [Lyra24 USB](GA2/2.0.0/lyra24_usb)
+- [RS26x](GA2/2.0.0/rs2xx)
 
 For more information about Canvas Software Suite see [https://www.ezurio.com/canvas/software-suite]().
