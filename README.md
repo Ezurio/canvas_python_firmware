@@ -28,5 +28,6 @@ To get started developing Python applications with Canvas, download the appropri
 - [Lyra24 S10](GA2/2.0.0/lyra24_s10)
 - [Lyra24 USB](GA2/2.0.0/lyra24_usb)
 - [RS26x](GA2/2.0.0/rs2xx)
+- [Veda SL917 (pre-release)](RC/0.0.99/brd2911a)
 
 For more information about Canvas Software Suite see [https://www.ezurio.com/canvas/software-suite]().
