@@ -30,4 +30,4 @@ To get started developing Python applications with Canvas, download the appropri
 - [RS26x](GA2/2.0.0/rs2xx)
 - [Veda SL917 (pre-release)](RC/0.0.99/brd2911a)
 
-For more information about Canvas Software Suite see [https://www.ezurio.com/canvas/software-suite]().
+For more information about Canvas Software Suite see <https://www.ezurio.com/canvas/software-suite>.
