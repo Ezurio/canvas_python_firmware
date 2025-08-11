@@ -14,6 +14,7 @@ Python support is based on the [MicroPython](https://github.com/micropython/micr
 To get started developing Python applications with Canvas, download the firmware image file(s) and program them onto your Canvas-enabled module, development kit or IoT product. Firmware files and documentation for supported hardware platforms can be found at the links below.
 
 - [BL5340](bl5340)
+- [BL54L10](bl54l10)
 - [BL54L15](bl54l15)
 - [BL653](bl653)
 - [BL654](bl654)
