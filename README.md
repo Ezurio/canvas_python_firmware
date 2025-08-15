@@ -15,7 +15,7 @@ To get started developing Python applications with Canvas, download the firmware
 
 - [BL5340](bl5340)
 - [BL54L10](bl54l10)
-- [BL54L15](bl54l15)
+- [BL54L15/BL54L15µ](bl54l15)
 - [BL653](bl653)
 - [BL654](bl654)
 - [Lyra24](lyra24)

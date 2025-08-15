@@ -1,6 +1,6 @@
 
 <logo>![logo](../img/github_doc_header-dark.png#gh-dark-mode-only)</logo><logo>![logo](../img/github_doc_header-light.png#gh-light-mode-only)</logo>
-#  BL54L15 Firmware
+#  BL54L15/BL54L15µ Firmware
 
 <table>
   <tr>
