@@ -7,7 +7,7 @@
     <th align="center">
       <img width="380" height="1" style="max-width: 100%; height: auto; max-height: 1px; visibility:hidden;"/>
       <a href="img/453-00001-K1.png"><img src="img/453-00001-K1.png"/></a></br>
-      BL54L15 DVK (<a href="https://www.ezurio.com/part/453-00175-k1">453-00001-K1</a>)
+      BL54L15 DVK (<a href="https://www.ezurio.com/part/453-00001-k1">453-00001-K1</a>)
     </th>
     <th align="left">
       <h2>Description</h2>
