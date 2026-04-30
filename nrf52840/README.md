@@ -46,6 +46,21 @@ Custom applications can be compiled and downloaded to the Dongle. It has a user 
 ## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![nRF52840 Dongle Pinout Diagram](img/nrf52840dongle.svg)](img/nrf52840dongle.svg)
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| P0.06 | LED1 |
+| P0.08 | LED_RED |
+| P0.09 | LED_GREEN |
+| P0.12 | LED_BLUE |
+| P1.06 | BUTTON1 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+| SPI | spi1 |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

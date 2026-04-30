@@ -53,10 +53,39 @@
   </tr>
 </table>
 
-## Pinout Diagram <a id="pinout_diagram"></a>[<sm>🔗</sm>](#pinout_diagram)
+## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![BL54L15 DVK Pinout Diagram](img/bl54l15_dvk.svg)](img/bl54l15_dvk.svg)
 
-## Canvas Features <a id="canvas_features"></a>[<sm>🔗</sm>](#canvas_features)
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| P2.09 | LED0,MB_CS,P2_09 |
+| P2.08 | P2_08,BOOTL_IND |
+| P2.07 | LED2,SWO,P2_07 |
+| P0.02 | P0_02 |
+| P1.07/AIN3 | AIN3,UART1_CTS,P1_07 |
+| P1.06/AIN2 | AIN2,UART1_RTS,P1_06 |
+| P1.05/AIN1 | AIN1,UART1_RX,P1_05 |
+| P1.04/AIN0/CLK | AIN0,UART1_TX,P1_04 |
+| P1.10 | LED1,MB_INT,P1_10 |
+| P1.09 | BUTTON1,MB_TX,P1_09 |
+| P1.08/EXTREF/CLK16M/CLK | BUTTON2,MB_RX,P1_08 |
+| P0.04/CLK | BUTTON3,MB_RST,P0_04 |
+| P1.14/AIN7 | LED3,MB_PWM,AIN7,P1_14 |
+| P1.13/AIN6 | BUTTON0,MB_AN,AIN6,P1_13 |
+| P1.12/AIN5/CLK | MB_SDA,AIN5,P1_12 |
+| P1.11/AIN4/CLK | MB_SCL,AIN4,P1_11 |
+| P0.03/CLK | P0_03 |
+| P2.10 | P2_10,BOOTL_REC |
+| P2.06/CLK | P2_06 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c22, i2c0 (alias) |
+| SPI | spi00, spi0 (alias), mikrobus_spi (alias) |
+
+## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |
 | ![X](../img/check-32px.png) | Bootloader            | | ![X](../img/check-32px.png) | OTA Update                | | ![X](../img/check-32px.png) | RTC                       |
@@ -67,7 +96,7 @@
 | ![x](../img/check-32px.png) | BLE Advertiser        | | ![X](../img/check-32px.png) | BLE Scanner               | | ![X](../img/check-32px.png) | BLE Connection            |
 | ![x](../img/check-32px.png) | .zip App Update       | | ![X](../img/check-32px.png) | mbedTLS                   | | ![X](../img/blank-32px.png) |                           |
 
-## Hardware-Specific Features <a id="hardware_specific_features"></a>[<sm>🔗</sm>](#hardware_specific_features)
+## Hardware-Specific Features <a id="hardware_specific_features"></a>[🔗](#hardware_specific_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:--|
 | ![x](../img/redx-32px.png) | <na>USB</na>          | | ![X](../img/redx-32px.png) | <na>RTOS Shell</na>       | | ![X](../img/redx-32px.png)  | <na>Encrypted FS</na>     |
@@ -75,7 +104,7 @@
 | ![x](../img/redx-32px.png) | <na>Wi-Fi AP</na>     | | ![X](../img/redx-32px.png) | <na>Net Client</na>       | | ![X](../img/redx-32px.png)  | <na>Net Server</na>       |
 | ![X](../img/redx-32px.png) | <na>UWB Ranging</na>  | | ![X](../img/redx-32px.png) | <na>LED Strip Driver</na> | | ![X](../img/blank-32px.png) |                           |
 
-## Design Guidelines <a id="design_guidelines"></a>[<sm>🔗</sm>](#design_guidelines)
+## Design Guidelines <a id="design_guidelines"></a>[🔗](#design_guidelines)
 $\textsf{\color{salmon}{IMPORTANT}}$
 - Pin P2.10 is used by the mcuboot bootloader to enter recovery mode when logic low at boot.
 - Pin P2.08 is used by the mcuboot bootloader as its LED indicator. This will be active high if in bootloader recovery mode.
@@ -87,7 +116,7 @@ $\textsf{\color{salmon}{IMPORTANT}}$
 - All firmware variants will run on BL54L15u DVK
 - BL54L15u has one extra IO: P1.15
 
-## Build Variants <a id="build_variants"></a>[<sm>🔗</sm>](#build_variants)
+## Build Variants <a id="build_variants"></a>[🔗](#build_variants)
 Firmware versions containing `a.b.99` are development builds and may not be suitable for production use.
 
 - All firmware builds require an external 32.768 kHz oscillator with a load capacitance of 9pF.

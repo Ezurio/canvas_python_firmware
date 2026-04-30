@@ -48,6 +48,44 @@
 ## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![Sentrius BT610 Sensor Pinout Diagram](img/bt610.svg)](img/bt610.svg)
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| SIO_35 | LED2 |
+| SIO_33 | BUTTON2 |
+| SIO_24 | BUTTON1 |
+| SIO_11 | Digital Output 2 |
+| SIO_12 | Digital Output 1 |
+| SIO_30/AIN6 | Battery Output Enable |
+| SIO_28/AIN4 | Port Expander Reset |
+| SIO_29/AIN5 | Voltage Reference |
+| SIO_03/AIN1 | Analog Input 2 |
+| SIO_02/AIN0 | Analog Input 1 |
+| SIO_46 | Port Expander Interrupt Request |
+| SIO_47 | MAG1 |
+| SIO_44 | High Voltage Power Supply Enable |
+| SIO_45 | Analog Inputs Enable |
+| NFC2/SIO_10 | Thermistor Inputs Enable |
+| NFC1/SIO_09 | Digital Input 1 |
+| SIO_43 | Digital Input 2 |
+| SIO_37 | Digital Input 1 Enable |
+| SIO_42 | Digital Input 2 Enable |
+| SIO_39 | LED1 |
+| AIN1_SEL | AIN1_SEL |
+| AIN2_SEL | AIN2_SEL |
+| AIN3_SEL | AIN3_SEL |
+| AIN4_SEL | AIN4_SEL |
+| AIN_A0 | AIN_A0 |
+| AIN_A1 | AIN_A1 |
+| AUX1 | AUX1 |
+| AUX2 | AUX2 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+| SPI | spi1 |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

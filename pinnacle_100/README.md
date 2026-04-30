@@ -57,6 +57,27 @@
 ## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![Pinnacle 100 Pinout Diagram](img/pinnacle_100.svg)](img/pinnacle_100.svg)
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| P1.04 | LED1,LED_BLUE |
+| P0.31_AIN7 | BUTTON1,AIN7 |
+| P1.05 | LED2,LED_GREEN1 |
+| P1.06 | LED3,LED_RED |
+| P1.07 | LED4,LED_GREEN2 |
+| P0.04_AIN2 | BUTTON3,AIN2 |
+| P0.30_AIN6 | AIN6 |
+| P0.29_AIN5 | VIN_ADC,AIN5 |
+| P0.28_AIN4 | VIN_ADC_EN,AIN4 |
+| P0.02_AIN0 | BUTTON4,AIN0 |
+| P0.03_AIN1 | BUTTON2,AIN1 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+| SPI | spi1 |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

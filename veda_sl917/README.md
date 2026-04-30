@@ -48,6 +48,46 @@
 ## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![Veda SL917 Explorer Kit Pinout Diagram](img/brd2911a.svg)](img/brd2911a.svg)
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| UULP_VBAT_GPIO_0 | UULP_GPIO_0,BREAKOUT11 |
+| ULP_GPIO_5 | ULP_GPIO_5,BREAKOUT9 |
+| ULP_GPIO_7 | ULP_GPIO_7,TX |
+| ULP_GPIO_4 | ULP_GPIO_4,BREAKOUT7 |
+| ULP_GPIO_6 | ULP_GPIO_6,RX |
+| GPIO_6 | GPIO_6,SDA |
+| ULP_GPIO_1 | ULP_GPIO_1,BREAKOUT5 |
+| UULP_VBAT_GPIO_2 | UULP_GPIO_2,BUTTON0 |
+| ULP_GPIO_0 | ULP_GPIO_0,BREAKOUT6 |
+| ULP_GPIO_8 | ULP_GPIO_8,BREAKOUT2 |
+| GPIO_7 | GPIO_7,SCL |
+| GPIO_48 | GPIO_48,BREAKOUT8 |
+| GPIO_47 | GPIO_47,BREAKOUT10 |
+| GPIO_49 | GPIO_49,BREAKOUT12 |
+| GPIO_50 | GPIO_50,BREAKOUT13 |
+| GPIO_51 | GPIO_51,BREAKOUT15 |
+| GPIO_46 | GPIO_46,BREAKOUT14 |
+| GPIO_30 | GPIO_30,RST |
+| GPIO_29 | GPIO_29,AN |
+| GPIO_28 | GPIO_28,SPI_CS |
+| ULP_GPIO_2 | ULP_GPIO_2,LED1 |
+| GPIO_10 | GPIO_10,LED0 |
+| GPIO_12 | GPIO_12,PWM |
+| GPIO_11 | GPIO_11,BUTTON1 |
+| GPIO_15 | GPIO_15,BREAKOUT16 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | I2C0 |
+| I2C | I2C1 |
+| I2C | I2C2 |
+| SPI | GSPI0 |
+| UART | USART0 |
+| UART | UART1 |
+| UART | ULP_UART |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

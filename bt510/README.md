@@ -48,6 +48,19 @@
 ## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![Sentrius BT510 Sensor Pinout Diagram](img/bt510.svg)](img/bt510.svg)
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| SIO_22 | LED1 |
+| SIO_20 | LED2 |
+| SIO_46 | MAG1 |
+| SIO_42 | BUTTON1 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

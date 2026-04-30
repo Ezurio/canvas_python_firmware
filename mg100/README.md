@@ -66,6 +66,24 @@
 
 **NOTE:** Pins prefixed with HL7800 route directly to the HL7800 modem and are not accessible from Python.
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| P1.04 | POWER_STATE |
+| P1.05 | LED_GREEN,LED3 |
+| P1.06 | LED_BLUE,LED2 |
+| P0.04_AIN2 | LED_RED,LED1 |
+| P0.30_AIN6 | CHARGE_STATE |
+| P1.10 | VBAT_EN |
+| P0.02_AIN0 | VBAT,AIN0 |
+| P0.03_AIN1 | BUTTON,BUTTON1 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+| SPI | spi2 |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

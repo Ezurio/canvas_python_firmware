@@ -47,6 +47,27 @@
 ## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![BL5340 DVK Pinout Diagram](img/bl5340_dvk.svg)](img/bl5340_dvk.svg)
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| P1.11 | BUTTON0 |
+| BUTTON1 | BUTTON1 |
+| BUTTON2 | BUTTON2 |
+| BUTTON3 | BUTTON3 |
+| BUTTON4 | BUTTON4 |
+| LED1 | LED1,LED_BLUE1 |
+| LED2 | LED2,LED_BLUE2 |
+| LED3 | LED3,LED_BLUE3 |
+| LED4 | LED4,LED_BLUE4 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c1 |
+| SPI | spi2 |
+| SPI | spi3 |
+| SPI | spi4 |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

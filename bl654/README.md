@@ -47,6 +47,35 @@
 ## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![BL654 DVK Pinout Diagram](img/bl654_dvk.svg)](img/bl654_dvk.svg)
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| SIO_25 | BUTTON4 |
+| SIO_24 | BUTTON3 |
+| SIO_15 | LED3 |
+| SIO_13 | LED1,BOOTL_IND |
+| SIO_16 | LED4 |
+| SIO_14 | LED2 |
+| SIO_11 | BUTTON1,BOOTL_REC |
+| SIO_12 | BUTTON2 |
+| SIO_31 | SIO_31,AIN7 |
+| SIO_30 | SIO_30,AIN6 |
+| SIO_28 | SIO_28,AIN4 |
+| SIO_29 | SIO_29,AIN5 |
+| SIO_03 | SIO_03,AIN1,TEMP_SENS |
+| SIO_02 | SIO_02,AIN0 |
+
+## USB Dongle Pinout Table <a id="pinout_table_usb_dongle"></a>[🔗](#pinout_table_usb_dongle)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| P0.13 | LED1 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+| SPI | spi2 |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

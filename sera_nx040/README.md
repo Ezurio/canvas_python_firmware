@@ -57,6 +57,68 @@
 [![BL653 DVK Pinout Diagram](img/sera_nx040_dvk.svg)](img/sera_nx040_dvk.svg)
 **NOTE:** *LED1* is a WS2812 compatible addressable RGB LED driven by GPIO6. The [canvas.LEDStrip](https://lairdcp.github.io/canvas_python_docs/canvas.html#canvas.LEDStrip) class can be used to control this LED.
 
+## Click Pinout Table <a id="pinout_table_click"></a>[🔗](#pinout_table_click)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| GPIO_7 | BUTTON |
+
+## DVK Pinout Table <a id="pinout_table_dvk"></a>[🔗](#pinout_table_dvk)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| UART1_TX | MB_TX |
+| UART1_RX | MB_RX |
+| I2C_SDA | SDA,MB_SDA |
+| I2C_SCL | SCL,MB_SCL |
+| GPIO_8 | GPIO8,MB_RST |
+| GPIO_2 | GPIO2,MB_INT |
+| GPIO_3 | GPIO3,MB_PWM |
+| GPIO_1 | GPIO1,MB_AN |
+| SPI_MOSI_EXT | SPI_MOSI,MB_MOSI |
+| SPI_MISO_EXT | SPI_MISO,MB_MISO |
+| SPI_CLK_EXT | SPI_CLK,MB_SCK |
+| GPIO_7 | GPIO7 |
+| NFC_2 | NFC2 |
+| NFC_1 | NFC1 |
+| GPIO_4 | GPIO4 |
+| GPIO_5 | GPIO5 |
+| GPIO_6 | GPIO6 |
+| SPI_CS_EXT | SPI_CS,MB_CS |
+
+## Tag Pinout Table <a id="pinout_table_tag"></a>[🔗](#pinout_table_tag)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| GPIO_8 | LED5 |
+| GPIO_2 | INT1 |
+| GPIO_3 | LED4 |
+| GPIO_1 | LED3 |
+| GPIO_7 | BUTTON |
+| GPIO_4 | LED2 |
+| GPIO_5 | INT2 |
+| GPIO_6 | LED1 |
+
+## Click Peripheral/Bus Table <a id="peripheral_bus_table_click"></a>[🔗](#peripheral_bus_table_click)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+| SPI | spi1 |
+| SPI | spi2 |
+| SPI | spi3 |
+
+## DVK Peripheral/Bus Table <a id="peripheral_bus_table_dvk"></a>[🔗](#peripheral_bus_table_dvk)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+| SPI | spi1 |
+| SPI | spi2 |
+| SPI | spi3 |
+
+## Tag Peripheral/Bus Table <a id="peripheral_bus_table_tag"></a>[🔗](#peripheral_bus_table_tag)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | i2c0 |
+| SPI | spi1 |
+| SPI | spi2 |
+
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
 |--:|:--|---|--:|:--|---|--:|:-- |

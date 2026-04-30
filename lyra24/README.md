@@ -66,6 +66,33 @@ The kit provides 20 breakout pads for peripherals from the Lyra 24P such as I2C,
 ## Pinout Diagram <a id="pinout_diagram"></a>[🔗](#pinout_diagram)
 [![Lyra 24 P10 Development Board Pinout Diagram](img/lyra24_p10.svg)](img/lyra24_p10.svg)
 
+## Pinout Table <a id="pinout_table"></a>[🔗](#pinout_table)
+| Pin | Canvas Pin Strings |
+|-----|--------------------|
+| PB04 | PB04,PB4,SIO6,MB_PWM |
+| PB03 | PB03,PB3,SIO5,MB_INT |
+| PB02 | PB02,PB2,SIO4,MB_RX |
+| PB01 | PB01,PB1,SIO3,MB_TX |
+| PB00 | PB00,PB0,SIO2,MB_AN |
+| PA06 | PA06,PA6 |
+| PA08 | PA08,PA8,SIO1,LED |
+| PD03 | PD03,PD3,MB_SDA |
+| PD02 | PD02,PD2,SIO13,MB_SCL |
+| PC02 | PC02,PC2,SIO7,MB_SCK |
+| PC03 | PC03,PC3,SIO8,MB_CS |
+| PC04 | PC04,PC4,SIO9,MB_MOSI |
+| PC05 | PC05,PC5,SIO10,MB_MISO |
+| PC06 | PC06,PC6,SIO11,MB_RST |
+| PC07 | PC07,PC7,SIO12,BTN0 |
+
+## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
+| Peripheral/Bus | Canvas Peripheral/Bus Strings |
+|---|---|
+| I2C | I2C0 |
+| I2C | I2C1 |
+| SPI | SPI0 |
+| UART | USART0 |
+| UART | EUSART1 |
 
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
