@@ -30,7 +30,7 @@ The kit provides 20 breakout pads for peripherals from the Lyra 24P such as I2C,
           <td>None</td>
           <td></td>
           <td><i>Default REPL Port</i></td>
-          <td>EUSART0<br/>(USB VCOM)</td>
+          <td>USB VCOM (EUSART0) to<br/>RX:PA07,TX:PA00<br/>RTS:PA04,CTS:PA05</td>
         </tr>
         <tr>
           <td><i>Python Heap Size</i></td>
