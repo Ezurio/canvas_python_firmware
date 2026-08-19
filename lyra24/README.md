@@ -86,13 +86,13 @@ The kit provides 20 breakout pads for peripherals from the Lyra 24P such as I2C,
 | PC07 | PC07,PC7,SIO12,BTN0 |
 
 ## Peripheral/Bus Table <a id="peripheral_bus_table"></a>[🔗](#peripheral_bus_table)
-| Peripheral/Bus | Canvas Peripheral/Bus Strings |
-|---|---|
-| I2C | I2C0 |
-| I2C | I2C1 |
-| SPI | SPI0 |
-| UART | USART0 |
-| UART | EUSART1 |
+| Peripheral/Bus | Canvas Peripheral/Bus Strings | Pin Mapping |
+|---|---|---|
+| I2C | I2C0 | Can be mapped to GPIO Port A, B, C or D pins.<br/>Map pins with `machine.I2C(("I2C0","<SDA PIN NAME>","<SCL PIN NAME>"), <I2C_ADDR>)`, <br/> e.g., `machine.I2C(("I2C0","PD03","PD02"),0x40)` for device `0x40` using the default mikroBUS header I2C |
+| I2C | I2C1 | Can be mapped to GPIO Port C or D pins.<br/>Map pins with `machine.I2C(("I2C1","<SDA PIN NAME>","<SCL PIN NAME>"), <I2C_ADDR>)`, <br/> e.g., `machine.I2C(("I2C1","PD03","PD02"),0x40)` for device `0x40` using the default mikroBUS header I2C |
+| SPI | SPI0 | Map pins in the `SPI()` init function. e.g., for default mikroBUS header SPI, use: <br/>`SPI((“USART0”, “PC02”, “PC04”, “PC05”), (“PC03”, SPI.CS_ACTIVE_LOW))` |
+| UART | USART0 | RX: `PC05`, TX: `PC04`, RTS: `PC03`, CTS: `PC02` (shares peripheral/pins with `SPI0`) |
+| UART | EUSART1 | RX: `PB02`, TX: `PB01`, RTS: `PB03`, CTS: `PB00` (default mikroBUS header UART) |
 
 ## Canvas Features <a id="canvas_features"></a>[🔗](#canvas_features)
 | | | | | | | | |
