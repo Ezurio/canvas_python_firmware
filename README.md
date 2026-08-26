@@ -25,7 +25,6 @@ To get started developing Python applications with Canvas, download the firmware
 - [Sentrius BT510](bt510)
 - [Sentrius BT610](bt610)
 - [Sentrius MG100 Gateway](mg100)
-- [Sentrius RS26x](rs26x)
 - [Sera NX040](sera_nx040)
 
 For more information about Canvas Software Suite see [the Ezurio website](https://www.ezurio.com/canvas/software-suite).
